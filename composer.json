@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/cf-cache-purge",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License",
+    "homepage": "",
+    "description": "Integrate CloudFlare with Magento. Purge Cloudflare cache directly from Mangeto Cache Management.",
+    "authors": [
+    {
+        "name": "Agli Panci",
+        "email": "agli.panci@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
