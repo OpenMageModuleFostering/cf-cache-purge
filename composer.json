@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
-    "description": "Integrate CloudFlare with Magento. Purge Cloudflare cache directly from Mangeto Cache Management.",
+    "description": "1 click Cloudflare cache purge",
     "authors": [
     {
         "name": "Agli Panci",

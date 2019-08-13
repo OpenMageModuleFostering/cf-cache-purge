@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>cf-cache-purge</name>
-    <version>1.0.2</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
     <extends/>
-    <summary>Integrate CloudFlare with Magento. Purge Cloudflare cache directly from Mangeto Cache Management.</summary>
-    <description>You don't need anymore to go to your Cloudflare account every time you needed to purge your cache because you made some changes on your Magento site. By using this extension you can Purge Cloudflare cache directly from Mangeto Cache Management.</description>
-    <notes>Fixing Magento Connect installation problem</notes>
+    <summary>1 click Cloudflare cache purge</summary>
+    <description>1 click Cloudflare cache purge</description>
+    <notes>MC Installation problem fix</notes>
     <authors><author><name>Agli Panci</name><user>aglipanci</user><email>agli.panci@gmail.com</email></author></authors>
-    <date>2014-04-09</date>
-    <time>20:05:48</time>
-    <contents><target name="magecommunity"><dir name="DM"><dir name="Cloudflare"><dir name="Model"><file name="Observer.php" hash="e9afbdeffd398c585cbfad39a2561c07"/><file name="cloudflare.php" hash="020a9a8f92d0b5cd31f6a548f7a96750"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ClearapcController.php" hash="3785c9e3df99cbaf14ae012de534baa7"/></dir></dir><dir name="etc"><file name="config.xml" hash="cee6681e422fbf1ee32da3ebe2ad89fd"/><file name="system.xml" hash="ffdfd2f9fa1271190fa73a7160151544"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="DM_Cloudflare.xml" hash="8702fd1338e94aabb3b091144a96bc0d"/></dir></target></contents>
+    <date>2014-05-14</date>
+    <time>21:18:25</time>
+    <contents><target name="magecommunity"><dir name="DM"><dir name="Cloudflare"><dir name="Model"><file name="Observer.php" hash="e9afbdeffd398c585cbfad39a2561c07"/><file name="cloudflare.php" hash="020a9a8f92d0b5cd31f6a548f7a96750"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ClearapcController.php" hash="3785c9e3df99cbaf14ae012de534baa7"/></dir></dir><dir name="etc"><file name="config.xml" hash="09ca62e9eec5711211ab3882d4357cd5"/><file name="system.xml" hash="ffdfd2f9fa1271190fa73a7160151544"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="DM_Cloudflare.xml" hash="8702fd1338e94aabb3b091144a96bc0d"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.0</min><max>5.5.11</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min/><max/></package><extension><name>curl</name><min/><max/></extension></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.11</max></php></required></dependencies>
 </package>
