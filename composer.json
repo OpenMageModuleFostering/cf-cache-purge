@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/cf-cache-purge",
+    "name": "OpenMageModuleFostering\/cf-cache-purge",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "1 click Cloudflare cache purge",
     "authors": [
-    {
-        "name": "Agli Panci",
-        "email": "agli.panci@gmail.com"
-    }
-],
+        {
+            "name": "Agli Panci",
+            "email": "agli.panci@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
