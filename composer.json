@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/cf-cache-purge",
+    "name": "openmage-module-fostering\/cf-cache-purge",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
